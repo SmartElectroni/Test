@@ -1,0 +1,4 @@
+print('456')
+x=8+9
+print(x)
+print(x in range(1, 101, 1) if(x%10))
