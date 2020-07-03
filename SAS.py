@@ -1,9 +1,9 @@
-from tkinter import *
+import tkinter as tk
 
 WIDHT = 500
 HIGHT = 400
 
-root= Tk()
+root = tk.Tk()
 root.title('Отслеживание информации о БУ изделий')
 root.wm_attributes("-topmost", 1)
 root.geometry('%dx%d' % (WIDHT, HIGHT))
